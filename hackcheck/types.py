@@ -13,4 +13,5 @@ class Result(NamedTuple):
     password: Optional[str]
     ip: Optional[str]
     phone: Optional[str]
+    name: Optional[str]
     source: Optional[Source]
